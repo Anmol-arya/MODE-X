@@ -606,6 +606,72 @@ body{
     font-weight: 600;
 }
 
+@media (max-width: 768px){
+
+    header{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo_home{
+        height: 45px;
+    }
+
+    .nav_bar{
+        min-width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .nav_bar a{
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .search_bar{
+        min-width: 100%;
+        margin-top: 10px;
+    }
+
+    .action_bar{
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .banner_image{
+        width: 100%;
+        height: auto;
+    }
+
+    .sale_item{
+        width: 45%;
+    }
+
+    .category_heading{
+        font-size: 18px;
+        margin: 20px 10px;
+    }
+
+    .deal_card{
+        width: 90%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .profile_popup{
+        right: 0;
+        width: 250px;
+    }
+}
+
 
 
 
