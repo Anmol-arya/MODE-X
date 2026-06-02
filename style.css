@@ -606,7 +606,11 @@ body{
     font-weight: 600;
 }
 
-@media (max-width: 768px){
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 768px) {
 
     header{
         flex-wrap: wrap;
@@ -620,20 +624,24 @@ body{
 
     .nav_bar{
         min-width: 100%;
-        justify-content: center;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
         margin-top: 10px;
     }
 
     .nav_bar a{
-        font-size: 11px;
+        font-size: 12px;
         padding: 8px;
     }
 
     .search_bar{
         min-width: 100%;
         margin-top: 10px;
+    }
+
+    .search_input{
+        width: 100%;
     }
 
     .action_bar{
@@ -647,13 +655,18 @@ body{
         height: auto;
     }
 
-    .sale_item{
-        width: 45%;
-    }
-
     .category_heading{
         font-size: 18px;
-        margin: 20px 10px;
+        margin: 25px 10px;
+    }
+
+    .sale_item{
+        width: 48%;
+    }
+
+    .deals_section{
+        flex-direction: column;
+        align-items: center;
     }
 
     .deal_card{
@@ -671,6 +684,8 @@ body{
         width: 250px;
     }
 }
+   
+
 
 
 
